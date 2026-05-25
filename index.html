@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo dos Gatos</title>
+
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background-color: #fff7f0;
+      color: #333;
+    }
+
+    header{
+      background-color: #ffb347;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    nav{
+      background-color: #ffd089;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a{
+      text-decoration: none;
+      color: #333;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .banner{
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .banner img{
+      width: 320px;
+      max-width: 90%;
+      border-radius: 15px;
+      margin-top: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .container{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .card{
+      background-color: white;
+      width: 260px;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover{
+      transform: scale(1.03);
+    }
+
+    .card img{
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content{
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer{
+      background-color: #ffb347;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🐱 Mundo dos Gatos</h1>
+    <p>Um site simples para amantes de gatos</p>
+  </header>
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="racas.html">Raças</a>
+    <a href="#">Cuidados</a>
+    <a href="#">Contato</a>
+  </nav>
+
+  <section class="banner">
+    <h2>Bem-vindo ao universo felino!</h2>
+
+    <img 
+      src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?q=80&w=1000&auto=format&fit=crop" 
+      alt="Gato fofo"
+    >
+  </section>
+
+  <section class="container">
+
+    <div class="card">
+      <img 
+        src="https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=1000&auto=format&fit=crop" 
+        alt="Gato Persa"
+      >
+
+      <div class="card-content">
+        <h3>Gato Persa</h3>
+        <p>Famoso por sua aparência fofinha e comportamento tranquilo.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img 
+        src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?q=80&w=1000&auto=format&fit=crop" 
+        alt="Gato Siamês"
+      >
+
+      <div class="card-content">
+        <h3>Gato Siamês</h3>
+        <p>Muito inteligente, brincalhão e carinhoso.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img 
+        src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?q=80&w=1000&auto=format&fit=crop" 
+        alt="Maine Coon"
+      >
+
+      <div class="card-content">
+        <h3>Maine Coon</h3>
+        <p>Uma das maiores e mais impressionantes raças domésticas.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>© 2026 Mundo dos Gatos</p>
+  </footer>
+
+</body>
+</html>
